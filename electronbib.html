@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<title>Электронная библиотека</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+<header class="bg-indigo-700 text-white p-6">
+  <div class="max-w-6xl mx-auto flex justify-between items-center">
+    <h1 class="text-3xl font-bold">Электронная библиотека</h1>
+    <nav class="space-x-4">
+      <a href="#" class="hover:underline">Главная</a>
+      <a href="#categories" class="hover:underline">Категории</a>
+      <a href="#new" class="hover:underline">Новые книги</a>
+      <a href="#authors" class="hover:underline">Авторы</a>
+      <a href="#contact" class="hover:underline">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<section class="max-w-6xl mx-auto p-6 mt-6 bg-white rounded-xl shadow">
+  <h2 class="text-2xl font-semibold mb-4">Поиск книг</h2>
+  <div class="flex gap-2">
+    <input type="text" placeholder="Введите название книги или автора" class="flex-1 p-3 border rounded-xl" />
+    <button class="bg-indigo-700 text-white px-6 py-3 rounded-xl">Искать</button>
+  </div>
+</section>
+
+<section id="categories" class="max-w-6xl mx-auto p-6 mt-6">
+  <h2 class="text-2xl font-semibold mb-4">Популярные категории</h2>
+  <div class="grid md:grid-cols-4 gap-4">
+    <div class="bg-white p-6 rounded-xl shadow text-center">Фантастика</div>
+    <div class="bg-white p-6 rounded-xl shadow text-center">Наука</div>
+    <div class="bg-white p-6 rounded-xl shadow text-center">История</div>
+    <div class="bg-white p-6 rounded-xl shadow text-center">Детективы</div>
+  </div>
+</section>
+
+<section id="new" class="max-w-6xl mx-auto p-6 mt-6 bg-white rounded-xl shadow">
+  <h2 class="text-2xl font-semibold mb-4">Новые книги</h2>
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="border p-4 rounded-xl">
+      <h3 class="font-bold">Дюна</h3>
+      <p>Фрэнк Герберт</p>
+      <button class="mt-2 bg-green-600 text-white px-4 py-1 rounded">Читать</button>
+    </div>
+    <div class="border p-4 rounded-xl">
+      <h3 class="font-bold">Атлант расправил плечи</h3>
+      <p>Айн Рэнд</p>
+      <button class="mt-2 bg-green-600 text-white px-4 py-1 rounded">Читать</button>
+    </div>
+    <div class="border p-4 rounded-xl">
+      <h3 class="font-bold">1984</h3>
+      <p>Джордж Оруэлл</p>
+      <button class="mt-2 bg-green-600 text-white px-4 py-1 rounded">Читать</button>
+    </div>
+  </div>
+</section>
+
+<section id="authors" class="max-w-6xl mx-auto p-6 mt-6">
+  <h2 class="text-2xl font-semibold mb-4">Популярные авторы</h2>
+  <div class="grid md:grid-cols-4 gap-4">
+    <div class="bg-white p-6 rounded-xl shadow text-center">Джордж Оруэлл</div>
+    <div class="bg-white p-6 rounded-xl shadow text-center">Михаил Булгаков</div>
+    <div class="bg-white p-6 rounded-xl shadow text-center">Фрэнк Герберт</div>
+    <div class="bg-white p-6 rounded-xl shadow text-center">Айн Рэнд</div>
+  </div>
+</section>
+
+<section id="statistics" class="max-w-6xl mx-auto p-6 mt-6 grid md:grid-cols-3 gap-4">
+  <div class="bg-white p-4 rounded-xl shadow text-center">
+    <h3 class="font-bold mb-2">Книг в библиотеке</h3>
+    <p class="text-xl">1240</p>
+  </div>
+  <div class="bg-white p-4 rounded-xl shadow text-center">
+    <h3 class="font-bold mb-2">Пользователей</h3>
+    <p class="text-xl">350</p>
+  </div>
+  <div class="bg-white p-4 rounded-xl shadow text-center">
+    <h3 class="font-bold mb-2">Рейтинг читателей</h3>
+    <p class="text-xl">⭐ 4.8</p>
+  </div>
+</section>
+
+<section id="contact" class="max-w-6xl mx-auto p-6 mt-6 bg-white rounded-xl shadow">
+  <h2 class="text-2xl font-semibold mb-4">Контакты</h2>
+  <p>Электронная библиотека © 2026</p>
+  <p>Email: info@elib.ru</p>
+</section>
+
+<footer class="bg-indigo-700 text-white text-center p-4 mt-10">
+© 2026 Электронная библиотека
+</footer>
+
+</body>
+</html>
